@@ -39,7 +39,17 @@
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.1.10",
     "swiper": "6.8.4",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "postcss": "8.4.24"
+  },
+  "resolutions": {
+    "postcss": "8.4.24"
+  },
+  "overrides": {
+    "postcss": "8.4.24"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "scripts": {
     "start": "react-scripts start",
