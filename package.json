@@ -40,20 +40,18 @@
     "sweetalert2": "^11.1.10",
     "swiper": "6.8.4",
     "web-vitals": "^1.0.1",
-    "postcss": "8.4.24"
+    "postcss": "7.0.39"
   },
-  "resolutions": {
-    "postcss": "8.4.24"
-  },
-  "overrides": {
-    "postcss": "8.4.24"
-  },
+  
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+  "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
